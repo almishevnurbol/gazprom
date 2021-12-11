@@ -1,0 +1,29 @@
+.tooltip-wrapper {
+    text-align: right;
+
+    .tooltip {
+        display: inline-flex;
+        gap: 2.4rem;
+        align-items: center;
+        padding: 1rem 2rem;
+        background: rgba($color: #000000, $alpha: 0.7);
+        mix-blend-mode: normal;
+        border-radius: 49px;
+
+        &__social {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        &__title {
+            font-weight: bold;
+            font-size: 1.7rem;
+            line-height: 2.9rem;
+            text-align: center;
+            color: #FFFFFF;
+            mix-blend-mode: normal;
+            opacity: 0.6;
+        }
+    }
+}
