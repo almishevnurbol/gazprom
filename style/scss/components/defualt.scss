@@ -46,8 +46,23 @@
     text-transform: none;
     height: auto;
     transition: 0.3s;
+    box-shadow: none;
 
     &:hover {
         opacity: 0.8;
+        box-shadow: none;
+    }
+
+    &._mini {
+        padding: 1.5rem 4rem;
+        font-size: 1.7rem;
+    }
+
+    &._bordered {
+        border: 1.5px solid #FFFFFF;
+    }
+
+    &._transparent {
+        background: transparent;
     }
 }

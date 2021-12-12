@@ -2,8 +2,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 100%;
-    padding-top: 20rem;
+    width: 28rem;
 
     .container {
         text-align: right;
@@ -11,6 +10,9 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        padding: 0 !important;
+        margin: 0 !important;
+        width: 100%;
         
         .sidebar-group {
             display: inline-block;
