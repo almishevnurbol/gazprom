@@ -34,6 +34,10 @@
     gap: 2rem;
 }
 
+._centered {
+    text-align: center;
+}
+
 .btn {
     background: linear-gradient(126.32deg, #FF8000 8.02%, #F90049 95.6%);
     border-radius: 6px;
@@ -64,5 +68,11 @@
 
     &._transparent {
         background: transparent;
+    }
+
+    &._has-icon {
+        display: flex;
+        align-items: center;
+        gap: 12px;
     }
 }
