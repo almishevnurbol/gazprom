@@ -26,6 +26,7 @@ header {
         transition: 0.3s;
         cursor: pointer;
         text-decoration: none;
+        white-space: nowrap;
 
         svg,
         path {
@@ -84,7 +85,7 @@ header {
 .section-main {
     padding-top: 4rem;
     padding-bottom: 1.1rem;
-    background: url(../../image/bg-main.png) 50% 50% no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-main.png) 50% 50% no-repeat;
     background-size: cover;
 
     .intro {
@@ -100,7 +101,7 @@ header {
 .section-technologies {
     padding-top: 20rem;
     padding-bottom: 5rem;
-    background: url(../../image/bg-technologies.png) 50% 50% no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-technologies.png) 50% 50% no-repeat;
     background-size: cover;
     background-color: #000;
 
@@ -122,7 +123,7 @@ header {
 .section-around-the-world {
     z-index: 0;
     padding-top: 10rem;
-    background: url(../../image/bg-around-the-world.png) 50% 50% no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-around-the-world.png) 50% 50% no-repeat;
     background-size: cover;
     background-color: #000;
 
@@ -170,13 +171,13 @@ header {
     z-index: 0;
     padding-top: 15rem;
     padding-bottom: 15rem;
-    background: url(../../image/bg-ecology.png) 50% 50% no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-ecology.png) 50% 50% no-repeat;
     background-size: cover;
     background-color: #000;
 }
 
 .section-progress {
-    background: url(../../image/bg-progress.png) 50% 50% no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-progress.png) 50% 50% no-repeat;
     background-size: cover;
     background-color: #0C111A;
     overflow: hidden;
@@ -255,7 +256,7 @@ header {
             position: absolute;
             width: calc((100vw - 100%) / 2);
             height: 100%;
-            background: url(../../image/bg-progress.png) 100% 50% no-repeat;
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-progress.png) 100% 50% no-repeat;
             background-size: cover;
             opacity: 0.8;
             top: 0;
@@ -266,7 +267,7 @@ header {
         &:after {
             right: auto;
             left: calc((100vw - 100%) / -2);
-            background: url(../../image/bg-progress.png) 0% 50% no-repeat;
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-progress.png) 0% 50% no-repeat;
         }
     }
 
@@ -300,7 +301,7 @@ header {
 .section-articic {
     padding-top: 12rem;
     padding-bottom: 15rem;
-    background: url(../../image/bg-arctic.png) 50% 50% no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-arctic.png) 50% 50% no-repeat;
     background-size: cover;
 
     .section-title {
@@ -309,7 +310,7 @@ header {
 }
 
 .section-specprojects {
-    background: url(../../image/bg-spec.png) 50% 50% no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-spec.png) 50% 50% no-repeat;
     background-size: cover;
     background-color: #000000;
     overflow: hidden;
@@ -331,7 +332,7 @@ header {
             position: absolute;
             width: calc((100vw - 100%) / 2);
             height: 100%;
-            background: url(../../image/bg-spec.png) 100% 50% no-repeat;
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-spec.png) 100% 50% no-repeat;
             background-size: cover;
             opacity: 0.8;
             top: 0;
@@ -342,7 +343,7 @@ header {
         &:after {
             right: auto;
             left: calc((100vw - 100%) / -2);
-            background: url(../../image/bg-spec.png) 0% 50% no-repeat;
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-spec.png) 0% 50% no-repeat;
         }
     }
 
@@ -390,7 +391,7 @@ header {
 }
 
 .section-next {
-    background: url(../../image/bg-next.png) 50% 50% no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-next.png) 50% 50% no-repeat;
     background-size: cover;
     overflow: hidden;
     max-width: 100vw;
@@ -465,7 +466,7 @@ header {
             position: absolute;
             width: calc((100vw - 100%) / 2);
             height: 100%;
-            background: url(../../image/bg-next.png) 100% 50% no-repeat;
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-next.png) 100% 50% no-repeat;
             background-size: cover;
             opacity: 0.8;
             top: 0;
@@ -476,14 +477,14 @@ header {
         &:after {
             right: auto;
             left: calc((100vw - 100%) / -2);
-            background: url(../../image/bg-next.png) 0% 50% no-repeat;
+            background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-next.png) 0% 50% no-repeat;
         }
     }
 }
 
 .section-articles {
     padding-top: 12rem;
-    background: url(../../image/bg-article.png) 50% 50% no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../../image/bg-article.png) 50% 50% no-repeat;
     background-size: cover;
     background-color: #000;
 

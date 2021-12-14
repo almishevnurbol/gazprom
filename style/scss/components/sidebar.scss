@@ -20,6 +20,10 @@
             width: 100%;
             text-align: left;
 
+            &__title {
+                font-size: 3.4rem;
+            }
+
             &__wrapper {
                 display: flex;
                 flex-direction: column;
